@@ -352,7 +352,7 @@ var Icon$F = function (props) {
 };
 
 var Icon$E = function (props) {
-    return (React__default['default'].createElement("img", { src: "/images/couscous/logo.png", alt: "logo" }));
+    return (React__default['default'].createElement("img", { style: { width: 32, height: 32 }, src: "/images/couscous/logo.png", alt: "logo" }));
 };
 
 var Icon$D = function (props) {
@@ -1868,7 +1868,7 @@ var Icon$g = function (props) {
 
 var Logo$1 = function (_a) {
     var isDark = _a.isDark; __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement("img", { src: isDark ? '/images/couscous/LogoTextNewDark.png' : '/images/couscous/LogoTextNewWhite.png' }));
+    return (React__default['default'].createElement("img", { style: { height: 54 }, src: isDark ? '/images/couscous/LogoTextNewDark.png' : '/images/couscous/LogoTextNewWhite.png' }));
 };
 
 var Icon$f = function (props) {
@@ -1976,7 +1976,6 @@ var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href;
     var isAbsoluteUrl = href.startsWith("http");
     var innerLogo = (React__default['default'].createElement(React__default['default'].Fragment, null,
-        React__default['default'].createElement(Icon$E, { className: "mobile-icon" }),
         React__default['default'].createElement(Logo$1, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$k, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$l, { width: "24px", color: "textSubtle" }))),

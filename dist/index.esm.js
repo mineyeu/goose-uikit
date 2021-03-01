@@ -339,7 +339,7 @@ var Icon$F = function (props) {
 };
 
 var Icon$E = function (props) {
-    return (React.createElement("img", { src: "/images/couscous/logo.png", alt: "logo" }));
+    return (React.createElement("img", { style: { width: 32, height: 32 }, src: "/images/couscous/logo.png", alt: "logo" }));
 };
 
 var Icon$D = function (props) {
@@ -1855,7 +1855,7 @@ var Icon$g = function (props) {
 
 var Logo$1 = function (_a) {
     var isDark = _a.isDark; __rest(_a, ["isDark"]);
-    return (React.createElement("img", { src: isDark ? '/images/couscous/LogoTextNewDark.png' : '/images/couscous/LogoTextNewWhite.png' }));
+    return (React.createElement("img", { style: { height: 54 }, src: isDark ? '/images/couscous/LogoTextNewDark.png' : '/images/couscous/LogoTextNewWhite.png' }));
 };
 
 var Icon$f = function (props) {
@@ -1963,7 +1963,6 @@ var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href;
     var isAbsoluteUrl = href.startsWith("http");
     var innerLogo = (React.createElement(React.Fragment, null,
-        React.createElement(Icon$E, { className: "mobile-icon" }),
         React.createElement(Logo$1, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$k, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$l, { width: "24px", color: "textSubtle" }))),
