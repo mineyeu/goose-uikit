@@ -339,7 +339,7 @@ var Icon$F = function (props) {
 };
 
 var Icon$E = function (props) {
-    return (React.createElement("image", { width: "32", height: "32", href: "images/couscous/logo.png" }));
+    return (React.createElement("img", { src: "/images/couscous/logo.png", alt: "logo" }));
 };
 
 var Icon$D = function (props) {
@@ -1855,7 +1855,7 @@ var Icon$g = function (props) {
 
 var Logo$1 = function (_a) {
     var isDark = _a.isDark; __rest(_a, ["isDark"]);
-    return (React.createElement("image", { href: isDark ? 'images/couscous/LogoTextNewDark.png' : 'images/couscous/LogoTextNewWhite.png' }));
+    return (React.createElement("img", { src: isDark ? '/images/couscous/LogoTextNewDark.png' : '/images/couscous/LogoTextNewWhite.png' }));
 };
 
 var Icon$f = function (props) {
