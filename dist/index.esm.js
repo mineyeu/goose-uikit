@@ -339,8 +339,7 @@ var Icon$F = function (props) {
 };
 
 var Icon$E = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "images/couscous/logo.png" })));
+    return (React.createElement("image", { width: "32", height: "32", href: "images/couscous/logo.png" }));
 };
 
 var Icon$D = function (props) {
@@ -1855,9 +1854,8 @@ var Icon$g = function (props) {
 };
 
 var Logo$1 = function (_a) {
-    var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? 'images/couscous/LogoTextNewDark.png' : 'images/couscous/LogoTextNewWhite.png' })));
+    var isDark = _a.isDark; __rest(_a, ["isDark"]);
+    return (React.createElement("image", { href: isDark ? 'images/couscous/LogoTextNewDark.png' : 'images/couscous/LogoTextNewWhite.png' }));
 };
 
 var Icon$f = function (props) {
